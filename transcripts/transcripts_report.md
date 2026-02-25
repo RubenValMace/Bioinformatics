@@ -31,4 +31,4 @@ Before module merging, 40 co-expression modules were identified. Modules with hi
 The hub isoform of the cyan module is Bradi1g00700.3, identified as the most highly connected gene within the module using an unsigned network with soft-thresholding power β = 6.
 
 #### 3.6) According to the module-trait association heat map, which module has the highest positive correlation with the "blwgrd (below ground biomass)" trait?
-According to the module–trait relationship heat map, the **violet module (MEviolet)** shows the highest positive correlation with **blwgrd**, with a correlation of **0.66** (p-value = **3e-04**).
+According to the module–trait relationship heat map, the violet module (MEviolet) shows the highest positive correlation with blwgrd, with a correlation of 0.66 (p-value = 3e-04).
