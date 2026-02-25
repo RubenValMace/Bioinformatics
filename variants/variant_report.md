@@ -26,7 +26,7 @@ Using the output of samtools mpileup, we estimated the sequencing depth across c
 ## Exercise 4:
 Following the indicated steps, the reference genome, gene annotation, and alignment files were loaded into IGV. We then zoomed in to the genomic region chr10:9,768,000–9,784,000 to visualize the aligned reads. The mapped reads and gene models in this region can be observed in the figure below.
 
-<img width="1852" height="702" alt="image" src="https://github.com/user-attachments/assets/54dddb85-26dd-403f-bd42-8fcfe7b08b26" />
+<img width="1719" height="658" alt="image" src="https://github.com/user-attachments/assets/fdeed6ba-eef8-4f72-996a-489c50d004f3" />
 
 ## Exercise 5:
 ### Take a look to INDEL variant at 10:9,058,200–9,058,229. What are the reference and alternative alleles? Is this position heterozygous in your mapped sample?
@@ -34,15 +34,10 @@ By inspecting the filtered VCF in IGV at position chr10:9,058,210, an INDEL vari
 The reference allele is CAA, and the alternative allele is CAAA, corresponding to an insertion of one adenine base.
 According to the genotype information (AC = 2, AF = 1), this variant is homozygous for the alternative allele (1/1) in the mapped sample.
 
-<img width="808" height="397" alt="image" src="https://github.com/user-attachments/assets/fb2f641e-8d00-44a5-828f-436ddc0741e5" />
-
+<img width="808" height="370" alt="image (1)" src="https://github.com/user-attachments/assets/fb031dd6-d176-4f48-a526-f9b8a89bbfd2" />
 
 ### Check the SNPs at 10:9,059,325-9,059,426. Are they all similar in terms of read dpeth (DP)?
 No, the SNPs in the region 10:9,059,325–9,059,426 do not all have similar read depth. By inspecting the SNPs in IGV, different DP values can be observed for different positions, indicating variability in sequencing coverage across this region.
-
-<img width="858" height="385" alt="image" src="https://github.com/user-attachments/assets/874d850e-f8e8-4849-ba3b-b3160c1700c6" />
-<img width="801" height="537" alt="image" src="https://github.com/user-attachments/assets/de4beeeb-c47b-4055-b41c-f813e08caa7d" />
-
 
 ### Examining the aligned reads supporting the SNPs at 10:10,000,166-10,000,226 by loading the BAM and index files. Do any of these fall into a gene model? Save the resulting image.
 The figure below shows that no gene model is present in the genomic region 10:10,000,166–10:10,000,226. By loading the BAM file together with the gene annotation track in IGV and examining the region 10:10,000,166–10:10,000,226, we observe that the SNPs are supported by aligned reads but do not overlap with any annotated gene model. Therefore, none of the SNPs in this region fall within a gene. The visualization of this region is shown in the figure below.
