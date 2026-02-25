@@ -1,5 +1,5 @@
 # Session 5: Mapping and variant calling
-## 5.1)
+## 5.1) 
 ## Exercise 1:
 ### Note that there are 2 FASTQ files with the same name but different numeric suffix, why?
 There are two FASTQ files because the sequencing was performed using paired-end sequencing.
