@@ -270,3 +270,4 @@ Method: AlphaFoldDB
 pTM: 0.89 
 Model confidence: Very high (most residues pLDDT > 90)
 
+<img width="950" height="548" alt="image" src="https://github.com/user-attachments/assets/510eb1c1-1118-4534-ae91-111418095952" />
